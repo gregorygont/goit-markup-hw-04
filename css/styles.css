@@ -393,7 +393,7 @@ img {
 .customers-link:hover,
 .customers-link:focus {
   border: 1px solid var(--accent);
-  fill: var(--accent);
+  color: var(--accent);
 }
 
 /* Footer */
