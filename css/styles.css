@@ -364,11 +364,14 @@ img {
 
 .customers-list {
   display: flex;
-  justify-content: space-between;
 }
 
 .customers-image {
   display: flex;
+}
+
+.customers-image:not(:last-child) {
+  margin-right: 24px;
 }
 
 .customers-link {
@@ -380,6 +383,11 @@ img {
   height: 88px;
   border: 1px solid var(--border-customers-color);
   border-radius: 4px;
+}
+
+.customers-logo {
+  display: block;
+  fill: var(--customers-logo-color);
 }
 
 .customers-link:hover,
