@@ -390,6 +390,7 @@ img {
   fill: var(--accent);
   border: 1px solid var(--accent);
   cursor: pointer;
+  color: var(--accent);
 }
 
 /* Footer */
