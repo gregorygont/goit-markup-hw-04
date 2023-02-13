@@ -472,8 +472,8 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-link .link:hover,
-.social-link .link:focus {
+.social-link:hover,
+.social-link:focus {
   background-color: #31d0aa;
 }
 
