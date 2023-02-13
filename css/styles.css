@@ -402,7 +402,6 @@ img {
 
 .footer-container {
   display: flex;
-  flex-direction: column;
   width: 1158px;
   margin-right: auto;
   margin-left: auto;
@@ -410,6 +409,10 @@ img {
   padding-right: 15px;
 }
 
+.logo-container {
+  display: flex;
+  flex-direction: column;
+}
 .footer-logo {
   margin-bottom: 16px;
   color: var(--color-footer-logo);
@@ -430,6 +433,47 @@ img {
   color: var(--color-footer-text);
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  width: 208px;
+  height: 80px;
+}
+
+.social-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-bg-color);
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-item {
+  display: flex;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-item:not(:last-child) {
+  margin-right: 16px;
 }
 
 /* Portfolio.html */
