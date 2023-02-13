@@ -297,6 +297,8 @@ img {
   padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-bg-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-link:not(:last-child) {
@@ -385,8 +387,8 @@ img {
   border-radius: 4px;
 }
 
-.customers-link:hover,
-.customers-link:focus {
+.customers-list .customers-link:hover,
+.customers-list .customers-link:focus {
   fill: var(--accent);
   border: 1px solid var(--accent);
   cursor: pointer;
@@ -535,6 +537,13 @@ img {
 .card-set {
   display: flex;
   flex-wrap: wrap;
+}
+
+.card-set .link:hover,
+.card-set .link:focus {
+  border: 1px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card-container {
