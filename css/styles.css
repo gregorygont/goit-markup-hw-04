@@ -132,6 +132,8 @@ a {
   margin-left: auto;
   text-align: center;
   max-width: 1440px;
+  background-position: center;
+  background-size: cover;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -142,6 +144,9 @@ a {
 .hero-header {
   margin-top: 0;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -204,7 +209,6 @@ a {
 .icons {
   display: flex;
   justify-content: center;
-  width: 100%;
   padding-top: 24px;
   padding-bottom: 24px;
   border-radius: 4px;
@@ -387,10 +391,15 @@ img {
   border-radius: 4px;
 }
 
+.customer-logo {
+  color: #afb1b8;
+  background-color: #afb1b8;
+}
+
 .customers-list .customers-link:hover,
 .customers-list .customers-link:focus {
   fill: var(--accent);
-  border: 1px solid var(--accent);
+  border: var(--accent);
   cursor: pointer;
   color: var(--accent);
 }
@@ -539,9 +548,8 @@ img {
   flex-wrap: wrap;
 }
 
-.card-set .link:hover,
-.card-set .link:focus {
-  border: 1px solid #f4f4fd;
+.card-item:hover,
+.card-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
