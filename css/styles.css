@@ -394,7 +394,7 @@ img {
 .customers-list .customers-link:hover,
 .customers-list .customers-link:focus {
   fill: var(--accent);
-  border: var(--accent);
+  border: 1px solid var(--accent);
   cursor: pointer;
   color: var(--accent);
 }
