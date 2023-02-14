@@ -391,11 +391,6 @@ img {
   border-radius: 4px;
 }
 
-.customer-logo {
-  color: #afb1b8;
-  background-color: #afb1b8;
-}
-
 .customers-list .customers-link:hover,
 .customers-list .customers-link:focus {
   fill: var(--accent);
