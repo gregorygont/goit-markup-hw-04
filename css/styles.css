@@ -41,6 +41,16 @@ a {
   text-decoration: none;
 }
 
+.container {
+  /* display: flex;
+  align-items: center; */
+  margin-right: auto;
+  margin-left: auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Logo */
 .logo {
   margin-right: 76px;
@@ -64,14 +74,9 @@ a {
   border-bottom: 1px solid #ececec;
 }
 
-.container {
+.container-header {
   display: flex;
   align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 /* Nav */
@@ -398,7 +403,7 @@ img {
 .customers-list .customers-link:hover,
 .customers-list .customers-link:focus {
   fill: var(--accent);
-  border: 1px solid var(--accent);
+  border-color: var(--accent);
   cursor: pointer;
 }
 
