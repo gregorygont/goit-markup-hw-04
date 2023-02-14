@@ -391,12 +391,15 @@ img {
   border-radius: 4px;
 }
 
+.customer-logo {
+  fill: #afb1b8;
+}
+
 .customers-list .customers-link:hover,
 .customers-list .customers-link:focus {
   fill: var(--accent);
   border: 1px solid var(--accent);
   cursor: pointer;
-  color: var(--accent);
 }
 
 /* Footer */
